@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Calculadora Pagos Ads
 
-## Getting Started
+**Calculadora Pagos Ads** es una aplicación web interactiva para simular, planificar y gestionar el flujo de fondos de campañas de publicidad digital (Google Ads, Facebook Ads, etc). Permite calcular y visualizar de forma dinámica el saldo diario, consumos, recargas y proyecciones, considerando días hábiles, feriados y reglas personalizadas.
 
-First, run the development server:
+## ¿Para qué sirve?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Simular el saldo de una cuenta publicitaria día a día.
+- Planificar recargas automáticas o manuales según el consumo y los días hábiles bancarios.
+- Visualizar el impacto de feriados, días no laborables y consumos especiales.
+- Editar consumos y recargas de manera individual para reflejar casos reales o excepcionales.
+- Anticipar cuándo será necesario recargar fondos para evitar cortes en la pauta.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Características principales
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Configuración flexible:** Define presupuesto diario, saldo inicial, monto y plazo de recarga, saldo mínimo, cantidad de días a simular, feriados y días laborables.
+- **Recargas automáticas y especiales:** El sistema sugiere recargas cuando el saldo proyectado cae por debajo del mínimo, pero también puedes agregar o editar recargas manualmente.
+- **Consumos especiales:** Permite modificar el consumo de un día específico para reflejar eventos puntuales.
+- **Gestión de feriados y días laborables:** Marca fácilmente qué días son hábiles o laborables, incluyendo excepciones.
+- **Proyección de saldo:** Visualiza el saldo futuro considerando el plazo de acreditación de recargas.
+- **Persistencia local:** Todos los parámetros y ediciones se guardan automáticamente en el navegador.
+- **Interfaz intuitiva:** Tabla editable, con resaltado de días críticos y controles rápidos.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Instalación
 
-## Learn More
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/Teoeme/calculadora-pagos-ads.git
+   ```
+2. Instala las dependencias:
+   ```bash
+   cd calculadora-pagos-ads
+   npm install
+   ```
+3. Realiza un build:
+   ```bash
+   npm run build
+   ```
+4. Inicia la app:
+    ```bash
+    npm start
+    ```
+    
+## Uso
 
-To learn more about Next.js, take a look at the following resources:
+1. Configura los parámetros iniciales (presupuesto, saldo, recarga, feriados, etc.).
+2. Visualiza la tabla de simulación y edita consumos o recargas según sea necesario.
+3. Marca o desmarca días hábiles/laborables y ajusta feriados.
+4. Analiza la proyección de saldo y planifica tus recargas para evitar cortes en la pauta.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Ejemplo de pantalla
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Ejemplo de tabla dinámica](https://github.com/Teoeme/calculadora-pagos-ads/public/ejemplo-tabla.jpeg) <!-- Puedes agregar un screenshot real aquí -->
 
-## Deploy on Vercel
+## Contribución
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+¡Las contribuciones son bienvenidas! Por favor, abre un issue o un pull request para sugerir mejoras o reportar errores.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
+
+---
+
+Desarrollado por Alte Workshop (https://alteworkshop.com).
