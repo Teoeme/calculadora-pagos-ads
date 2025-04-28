@@ -39,7 +39,7 @@
     ```bash
     npm start
     ```
-    
+
 ## Uso
 
 1. Configura los parámetros iniciales (presupuesto, saldo, recarga, feriados, etc.).
@@ -49,7 +49,7 @@
 
 ## Ejemplo de pantalla
 
-![Ejemplo de tabla dinámica](https://github.com/Teoeme/calculadora-pagos-ads/public/ejemplo-tabla.jpeg) <!-- Puedes agregar un screenshot real aquí -->
+![Ejemplo de tabla dinámica](https://github.com/Teoeme/calculadora-pagos-ads/blob/main/public/ejemplo-tabla.jpeg) <!-- Puedes agregar un screenshot real aquí -->
 
 ## Contribución
 
